@@ -1,0 +1,17 @@
+code,condition,family,placement,strength_parameter,strength_value,gamma_AD,T1_us,T2_us,Tphi_us,gate_duration_ns,phase_flip_probability,local_average_infidelity,local_physical_channels_per_forward,seeds,updates,learning_rate
+C00,noiseless,none,none,q_total,0.0,,,,,,,0.0,0,"42,43,44",500,0.3
+C01,y_q010,y,encoder_rz_targets,q_total,0.01,,,,,,,0.006666666666666667,7,"42,43,44",500,0.3
+C02,y_q050,y,encoder_rz_targets,q_total,0.05,,,,,,,0.03333333333333333,7,"42,43,44",500,0.3
+C03,y_q150,y,encoder_rz_targets,q_total,0.15,,,,,,,0.09999999999999999,7,"42,43,44",500,0.3
+C04,iso_q010,iso,encoder_rz_targets,q_total,0.01,,,,,,,0.006666666666666667,7,"42,43,44",500,0.3
+C05,iso_q050,iso,encoder_rz_targets,q_total,0.05,,,,,,,0.03333333333333333,7,"42,43,44",500,0.3
+C06,iso_q150,iso,encoder_rz_targets,q_total,0.15,,,,,,,0.09999999999999999,7,"42,43,44",500,0.3
+C07,ad_enc_qref010,ad_encoder,encoder_rz_targets,q_reference,0.01,0.019949748426479785,,,,,,0.006666666666666667,7,"42,43,44",500,0.3
+C08,ad_enc_qref050,ad_encoder,encoder_rz_targets,q_reference,0.05,0.09871773792358574,,,,,,0.03333333333333333,7,"42,43,44",500,0.3
+C09,ad_enc_qref150,ad_encoder,encoder_rz_targets,q_reference,0.15,0.2878177829171549,,,,,,0.09999999999999999,7,"42,43,44",500,0.3
+C10,tr_2q_tau001,thermal_2q,all_cnot_both_qubits,tau_t_over_T1,0.001,0.000999500166624978,200.0,200.0,400.0,200.0,0.0002499375104153545,0.0004997500833125446,30,"42,43,44",500,0.3
+C11,tr_2q_tau005,thermal_2q,all_cnot_both_qubits,tau_t_over_T1,0.005,0.00498752080731768,40.0,40.0,80.0,200.0,0.0012484388012699577,0.00249376040365884,30,"42,43,44",500,0.3
+C12,tr_2q_tau010,thermal_2q,all_cnot_both_qubits,tau_t_over_T1,0.01,0.009950166250831893,20.0,20.0,40.0,200.0,0.00249376040365884,0.004975083125416002,30,"42,43,44",500,0.3
+C13,ad_2q_tau001,ad_2q_control,all_cnot_both_qubits,tau_t_over_T1,0.001,0.000999500166624978,200.0,400.0,,200.0,0.0,0.0003332083680477882,30,"42,43,44",500,0.3
+C14,ad_2q_tau005,ad_2q_control,all_cnot_both_qubits,tau_t_over_T1,0.005,0.00498752080731768,40.0,80.0,,200.0,0.0,0.0016635460020662518,30,"42,43,44",500,0.3
+C15,ad_2q_tau010,ad_2q_control,all_cnot_both_qubits,tau_t_over_T1,0.01,0.009950166250831893,20.0,40.0,,200.0,0.0,0.003320867977577857,30,"42,43,44",500,0.3

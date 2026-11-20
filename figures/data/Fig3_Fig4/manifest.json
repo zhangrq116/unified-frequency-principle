@@ -1,0 +1,171 @@
+{
+  "conditions": [
+    {
+      "id": 1,
+      "key": "noiseless",
+      "file": "inputs/noiseless.npz",
+      "sha256": "b3102885dd8d0f79dafff1f29957c9576f3476ccc8bef0faec6a05aaf1a49e2b",
+      "source_file": "plot_inputs.npz",
+      "source_sha256": "e74605b117063f17b71ccc03a177b168b3c132e096973060a12a37565e467c7d"
+    },
+    {
+      "id": 6,
+      "key": "pauli_y_003",
+      "file": "inputs/pauli_y_003.npz",
+      "sha256": "1e162da51c50deb6bc1d88f2eae41aa16569d84999c2623c094f4e888c416d54",
+      "source_file": "plot_inputs.npz",
+      "source_sha256": "5163eb49c5e541f9c90abd380db9d59fca39f0d6feaa629c2c493befaadc2bfe"
+    },
+    {
+      "id": 7,
+      "key": "pauli_y_006",
+      "file": "inputs/pauli_y_006.npz",
+      "sha256": "98a23d974d71d7b2bece5c68bc83b6e2c79e958298f417128bff9bc993876004",
+      "source_file": "plot_inputs.npz",
+      "source_sha256": "9e3511ac631088690061d47a35cd847420b2131badca4651e5c86fc9b1996925"
+    },
+    {
+      "id": 8,
+      "key": "symmetric_0025",
+      "file": "inputs/symmetric_0025.npz",
+      "sha256": "79b0bc53e34d6542c1ac801566d3c4fcdc51e82c12297578a63d824324324bf1",
+      "source_file": "plot_inputs.npz",
+      "source_sha256": "1122264a2ac249e851b46fbf89f61a127fef6e7551f7fee2c33ef8d902814267"
+    },
+    {
+      "id": 9,
+      "key": "symmetric_0005",
+      "file": "inputs/symmetric_0005.npz",
+      "sha256": "cec6efd407c0276ddc9f4712fcdb2e6d3b5762f0bd95803d458560a774722bd8",
+      "source_file": "plot_inputs.npz",
+      "source_sha256": "0fce0df3eef246c86e389d2b130ebcb2b31902fbb931734ebe75410c6cb83d92"
+    },
+    {
+      "id": 10,
+      "key": "allblock_encoder_0005",
+      "file": "inputs/allblock_encoder_0005.npz",
+      "sha256": "e5c341c9cdc693503c7b9de8b984e80aa0e005899206a9383c473f2a7ad46dd2",
+      "source_file": "plot_inputs.npz",
+      "source_sha256": "fdf43e500c4f95ff2c975511f68bfe63905e1ce806d0609f84002092d8e1ffc4"
+    },
+    {
+      "id": 11,
+      "key": "thermal_weak",
+      "file": "inputs/thermal_weak.npz",
+      "sha256": "b0e9431adf18ccfd6e9e7326469c804fb64461a9ccf58d40a599d10680a82d5d",
+      "source_file": "plot_inputs.npz",
+      "source_sha256": "57ce9fb1167671b00a7abd8bdcb4e9c1670b5aa8a23cd054cd9c0612a5f94008"
+    },
+    {
+      "id": 12,
+      "key": "thermal_matched",
+      "file": "inputs/thermal_matched.npz",
+      "sha256": "051c2efc0bdd84398033b8f8b1981d40bd297aae13a27721eac200c110e23340",
+      "source_file": "thermal_double_only_matched_tau0p0100503359_sgd_lr0p5_epochs1600_repeats20_seeds42_61.pkl",
+      "source_sha256": "d267c3bfb43b584b3563dfd5e22310c7670f34339bb3fad74d95f894802b21ab"
+    }
+  ],
+  "selected_frequencies": [
+    1,
+    2,
+    3,
+    7,
+    15,
+    18
+  ],
+  "window": [
+    0,
+    1000
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "learning_rate": 0.5,
+  "optimizer": "full-batch GD",
+  "figure3_layout": [
+    2,
+    3
+  ],
+  "figure4_layout": [
+    2,
+    4
+  ],
+  "amplitude_ylim": [
+    -0.001,
+    0.023
+  ],
+  "band_loss_ylim": [
+    0.0001,
+    1.3
+  ],
+  "display_labels": "Pauli-Z p_z for original Pauli-Y simulation, using equivalent compiled R_Z basis.",
+  "hidden_setting_identifiers": [
+    4,
+    5
+  ],
+  "shown_setting_identifiers": [
+    1,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "normalization": "Per-seed initial band-loss normalization followed by mean across all 20 seeds.",
+  "uncertainty": "two-sided 95% Student-t confidence intervals, df=19; lower display clip=1e-4",
+  "inputs_keep_original_simulation_keys": true,
+  "figure4_display_bands": [
+    {
+      "limits": [
+        1,
+        5
+      ],
+      "color": "#009E73",
+      "linestyle": "-"
+    },
+    {
+      "limits": [
+        6,
+        15
+      ],
+      "color": "#0072B2",
+      "linestyle": "--"
+    },
+    {
+      "limits": [
+        16,
+        20
+      ],
+      "color": "#003B5C",
+      "linestyle": "-."
+    }
+  ],
+  "figure4_unplotted_bands": [
+    [
+      21,
+      39
+    ]
+  ],
+  "summary_includes_unplotted_bands": true
+}

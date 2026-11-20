@@ -1,0 +1,19 @@
+{
+  "titles": {
+    "noiseless": "Noiseless",
+    "pauli_y_003": "Encoding Pauli-Z\n$p_z=0.03$",
+    "pauli_y_006": "Encoding Pauli-Z\n$p_z=0.06$",
+    "symmetric_0025": "Encoding symmetric Pauli\n$p=0.025$",
+    "symmetric_0005": "Encoding symmetric Pauli\n$p=0.005$",
+    "allblock_encoder_0005": "Encoding + block Pauli\n$p_{\\rm enc}=0.005$",
+    "thermal_weak": "CZ-only thermal relaxation\n$\\tau=0.005$, $T_2=T_1$",
+    "thermal_matched": "CZ-only thermal relaxation\n$\\tau=0.0100503$, $T_2=T_1$"
+  },
+  "reference_figure_width_inches": 8.4,
+  "title_fontsize_points": 8.3,
+  "title_pad_points": 7,
+  "source_script": "plot_figures.py",
+  "source_script_sha256": "0d3872142784b09cedb023b45255c0be2c472546271d9354f889ea74c6f130f6",
+  "source_pdf": "GD20_common1000_relative_band_losses_thermal8_compiled_RZ_2x4.pdf",
+  "source_pdf_sha256": "ce81c6685323d5d4d0fcae8b105892d3fe83f7e545aab3f95b2fc99cdd5ac2c5"
+}

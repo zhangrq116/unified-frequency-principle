@@ -1,0 +1,154 @@
+{
+  "conditions": [
+    {
+      "key": "main_noiseless",
+      "label": "Noiseless",
+      "title": "Noiseless\n",
+      "encoder_noise": [
+        0.0,
+        0.15,
+        0.0
+      ],
+      "noise_enabled": false,
+      "epochs": 800,
+      "color": "#E69F00",
+      "linestyle": "-"
+    },
+    {
+      "key": "main_y_015",
+      "label": "Pauli-Y 0.15",
+      "title": "Pauli-Y noise:\n$p_y=0.15$",
+      "encoder_noise": [
+        0.0,
+        0.15,
+        0.0
+      ],
+      "noise_enabled": true,
+      "epochs": 800,
+      "color": "#0072B2",
+      "linestyle": "--"
+    },
+    {
+      "key": "main_y_030",
+      "label": "Pauli-Y 0.30",
+      "title": "Pauli-Y noise:\n$p_y=0.30$",
+      "encoder_noise": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "noise_enabled": true,
+      "epochs": 800,
+      "color": "#D55E00",
+      "linestyle": ":"
+    },
+    {
+      "key": "main_depolarizing_005",
+      "label": "Symmetric Pauli 0.05",
+      "title": "Depolarizing noise:\n$p_x=p_y=p_z=0.05$",
+      "encoder_noise": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "noise_enabled": true,
+      "epochs": 800,
+      "color": "#009E73",
+      "linestyle": "-."
+    },
+    {
+      "key": "main_depolarizing_010",
+      "label": "Symmetric Pauli 0.10",
+      "title": "Depolarizing noise:\n$p_x=p_y=p_z=0.10$",
+      "encoder_noise": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "noise_enabled": true,
+      "epochs": 1600,
+      "color": "#CC79A7",
+      "linestyle": "--"
+    },
+    {
+      "key": "main_depolarizing_015",
+      "label": "Symmetric Pauli 0.15",
+      "title": "Depolarizing noise:\n$p_x=p_y=p_z=0.15$",
+      "encoder_noise": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "noise_enabled": true,
+      "epochs": 800,
+      "color": "#555555",
+      "linestyle": ":"
+    }
+  ],
+  "inputs": [
+    {
+      "key": "main_noiseless",
+      "file": "inputs/main_noiseless.npz",
+      "sha256": "2ffd705e11ac5d23f0c62f8e3402b0459de06ad943b77c975b85fc79505d0a48"
+    },
+    {
+      "key": "main_y_015",
+      "file": "inputs/main_y_015.npz",
+      "sha256": "308032b0dce8ea455273f89adb0ad44c0edd1b4a8a1b5acbba86363a2646fa12"
+    },
+    {
+      "key": "main_y_030",
+      "file": "inputs/main_y_030.npz",
+      "sha256": "6941ee2ba66966e1f0b97a32c9fa1acfd5b6a806164b2436b2253e719cd74188"
+    },
+    {
+      "key": "main_depolarizing_005",
+      "file": "inputs/main_depolarizing_005.npz",
+      "sha256": "580c3389639b335a6cb44bcfc0f2eaa32cc683fdde9ad0abd043030a2bb396a1"
+    },
+    {
+      "key": "main_depolarizing_010",
+      "file": "inputs/main_depolarizing_010.npz",
+      "sha256": "b48753b27c13b19d765f6bf24c856b0ab0911960116ac24c0f5bd70b020730f6"
+    },
+    {
+      "key": "main_depolarizing_015",
+      "file": "inputs/main_depolarizing_015.npz",
+      "sha256": "0cee6ca161df280c0ce8b0de8a0aaddc78f2e8fccd6afa356d4e582227a061b3"
+    }
+  ],
+  "bands": [
+    [
+      "low_1_5",
+      "Low 1-5",
+      1,
+      5,
+      "#0072B2",
+      "-"
+    ],
+    [
+      "middle_6_15",
+      "Middle 6-15",
+      6,
+      15,
+      "#E69F00",
+      "--"
+    ],
+    [
+      "high_16_20",
+      "Reachable high 16-20",
+      16,
+      20,
+      "#D55E00",
+      "-."
+    ],
+    [
+      "beyond_21_39",
+      "Target beyond 21-39",
+      21,
+      39,
+      "#777777",
+      ":"
+    ]
+  ]
+}

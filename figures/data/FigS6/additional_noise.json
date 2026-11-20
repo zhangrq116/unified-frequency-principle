@@ -1,0 +1,56 @@
+{
+  "panels": [
+    {
+      "panel": "a",
+      "source_condition": 0,
+      "target": "fixed_noiseless",
+      "channel_index": 1,
+      "model": "fixed_z",
+      "r": 0.01
+    },
+    {
+      "panel": "b",
+      "source_condition": 3,
+      "target": "fixed_noiseless",
+      "channel_index": 4,
+      "model": "symmetric_pauli",
+      "r": 0.01
+    },
+    {
+      "panel": "c",
+      "source_condition": 6,
+      "target": "fixed_noiseless",
+      "channel_index": 7,
+      "model": "thermal",
+      "r": 0.01
+    },
+    {
+      "panel": "d",
+      "source_condition": 1,
+      "target": "fixed_noiseless",
+      "channel_index": 2,
+      "model": "fixed_z",
+      "r": 0.05
+    },
+    {
+      "panel": "e",
+      "source_condition": 4,
+      "target": "fixed_noiseless",
+      "channel_index": 5,
+      "model": "symmetric_pauli",
+      "r": 0.05
+    },
+    {
+      "panel": "f",
+      "source_condition": 7,
+      "target": "fixed_noiseless",
+      "channel_index": 8,
+      "model": "thermal",
+      "r": 0.05
+    }
+  ],
+  "shared_y_limits": [
+    0.001,
+    1.1
+  ]
+}

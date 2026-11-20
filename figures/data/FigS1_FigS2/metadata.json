@@ -1,0 +1,230 @@
+{
+  "noiseless": {
+    "source_file": "QNN_FP_20250709_181438.pkl",
+    "source_sha256": "321ba0dfc2b018920282c49007684cbb047133f980401dfb2558f2edea2ddf9c",
+    "saved_shape": [
+      16,
+      1600,
+      1000
+    ],
+    "included_runs": 16,
+    "configured_repeats": 40,
+    "noise_settings": {
+      "Is_noise": true,
+      "noise_rate_x": 0,
+      "noise_rate_y": 0,
+      "noise_rate_z": 0,
+      "noise_rate_single_x": 2.5e-05,
+      "noise_rate_single_y": 2.5e-05,
+      "noise_rate_single_z": 2.5e-05,
+      "noise_rate_double_x": 0.0025,
+      "noise_rate_double_y": 0.0025,
+      "noise_rate_double_z": 0.0025
+    },
+    "training_settings": {
+      "epochs": 1600,
+      "batch_size": 2048,
+      "learning_rate": 0.1,
+      "initial_method": "normal",
+      "repeat_num": 40
+    },
+    "circuit_settings": {
+      "qubit_num": 4,
+      "encoder_layer_num": 10,
+      "ansatz_layer_num": 1,
+      "ansatz_layer_num_in_block": 4,
+      "filename_this": "QNN_initial_noise_equal_noiseless_new_v2_parfor2_0.py"
+    },
+    "sample_count": 1000,
+    "normalization": "abs(fft(prediction)/1000), both endpoint samples retained; average magnitudes over all saved runs"
+  },
+  "noise": {
+    "source_file": "QNN_FP_20250709_181400.pkl",
+    "source_sha256": "c1617342b5c4c0e33a104da348272c0651580fd3667071683dc4e7a7c3df7f31",
+    "saved_shape": [
+      15,
+      1600,
+      1000
+    ],
+    "included_runs": 15,
+    "configured_repeats": 40,
+    "noise_settings": {
+      "Is_noise": true,
+      "noise_rate_x": 0,
+      "noise_rate_y": 0.15,
+      "noise_rate_z": 0,
+      "noise_rate_single_x": 2.5e-05,
+      "noise_rate_single_y": 2.5e-05,
+      "noise_rate_single_z": 2.5e-05,
+      "noise_rate_double_x": 0.0025,
+      "noise_rate_double_y": 0.0025,
+      "noise_rate_double_z": 0.0025
+    },
+    "training_settings": {
+      "epochs": 1600,
+      "batch_size": 2048,
+      "learning_rate": 0.1,
+      "initial_method": "normal",
+      "repeat_num": 40
+    },
+    "circuit_settings": {
+      "qubit_num": 4,
+      "encoder_layer_num": 10,
+      "ansatz_layer_num": 1,
+      "ansatz_layer_num_in_block": 4,
+      "filename_this": "QNN_initial_noise_equal_noiseless_new_v2_0.py"
+    },
+    "sample_count": 1000,
+    "normalization": "abs(fft(prediction)/1000), both endpoint samples retained; average magnitudes over all saved runs"
+  },
+  "noise2": {
+    "source_file": "QNN_FP_20250709_181512.pkl",
+    "source_sha256": "b758039c09752465f16fbbf0d7e98f7f91ff81e1ef400abe65fba8dfb2fe4957",
+    "saved_shape": [
+      11,
+      1600,
+      1000
+    ],
+    "included_runs": 11,
+    "configured_repeats": 40,
+    "noise_settings": {
+      "Is_noise": true,
+      "noise_rate_x": 0,
+      "noise_rate_y": 0.3,
+      "noise_rate_z": 0,
+      "noise_rate_single_x": 2.5e-05,
+      "noise_rate_single_y": 2.5e-05,
+      "noise_rate_single_z": 2.5e-05,
+      "noise_rate_double_x": 0.0025,
+      "noise_rate_double_y": 0.0025,
+      "noise_rate_double_z": 0.0025
+    },
+    "training_settings": {
+      "epochs": 1600,
+      "batch_size": 2048,
+      "learning_rate": 0.1,
+      "initial_method": "normal",
+      "repeat_num": 40
+    },
+    "circuit_settings": {
+      "qubit_num": 4,
+      "encoder_layer_num": 10,
+      "ansatz_layer_num": 1,
+      "ansatz_layer_num_in_block": 4,
+      "filename_this": "QNN_initial_noise_equal_noiseless_new_v2_parfor3_0.py"
+    },
+    "sample_count": 1000,
+    "normalization": "abs(fft(prediction)/1000), both endpoint samples retained; average magnitudes over all saved runs"
+  },
+  "noise3": {
+    "source_file": "QNN_FP_20250709_181542.pkl",
+    "source_sha256": "5dfcff066007fc25c09aee0d89b3563723a3f5eff678246166416e06355810aa",
+    "saved_shape": [
+      11,
+      1600,
+      1000
+    ],
+    "included_runs": 11,
+    "configured_repeats": 40,
+    "noise_settings": {
+      "Is_noise": true,
+      "noise_rate_x": 0.05,
+      "noise_rate_y": 0.05,
+      "noise_rate_z": 0.05,
+      "noise_rate_single_x": 2.5e-05,
+      "noise_rate_single_y": 2.5e-05,
+      "noise_rate_single_z": 2.5e-05,
+      "noise_rate_double_x": 0.0025,
+      "noise_rate_double_y": 0.0025,
+      "noise_rate_double_z": 0.0025
+    },
+    "training_settings": {
+      "epochs": 1600,
+      "batch_size": 2048,
+      "learning_rate": 0.1,
+      "initial_method": "normal",
+      "repeat_num": 40
+    },
+    "circuit_settings": {
+      "qubit_num": 4,
+      "encoder_layer_num": 10,
+      "ansatz_layer_num": 1,
+      "ansatz_layer_num_in_block": 4,
+      "filename_this": "QNN_initial_noise_equal_noiseless_new_v2_parfor4_0.py"
+    },
+    "sample_count": 1000,
+    "normalization": "abs(fft(prediction)/1000), both endpoint samples retained; average magnitudes over all saved runs"
+  },
+  "noise4": {
+    "source_file": "QNN_FP_20250710_114037.pkl",
+    "source_sha256": "ebad8c4fc5b0c5fd06c7f6dc125c23e0dc0de0c86bb62308c2154753a7712941",
+    "saved_shape": [
+      10,
+      1600,
+      1000
+    ],
+    "included_runs": 10,
+    "configured_repeats": 40,
+    "noise_settings": {
+      "Is_noise": true,
+      "noise_rate_x": 0.025,
+      "noise_rate_y": 0.025,
+      "noise_rate_z": 0.025,
+      "noise_rate_single_x": 2.5e-05,
+      "noise_rate_single_y": 2.5e-05,
+      "noise_rate_single_z": 2.5e-05,
+      "noise_rate_double_x": 0.0025,
+      "noise_rate_double_y": 0.0025,
+      "noise_rate_double_z": 0.0025
+    },
+    "training_settings": {
+      "epochs": 1600,
+      "batch_size": 2048,
+      "learning_rate": 0.1,
+      "initial_method": "normal",
+      "repeat_num": 40
+    },
+    "circuit_settings": {
+      "qubit_num": 4,
+      "encoder_layer_num": 10,
+      "ansatz_layer_num": 1,
+      "ansatz_layer_num_in_block": 4,
+      "filename_this": "QNN_initial_noise_equal_noiseless_new_v2_parfor5_0.py"
+    },
+    "sample_count": 1000,
+    "normalization": "abs(fft(prediction)/1000), both endpoint samples retained; average magnitudes over all saved runs"
+  },
+  "noise5": {
+    "source_file": "QNN_FP_20250704_010607.pkl",
+    "source_sha256": "4303d1c532053fe029753e7a2a62d2377c904242a81500174cc3072d89f6830f",
+    "saved_shape": [
+      40,
+      800,
+      1000
+    ],
+    "included_runs": 40,
+    "configured_repeats": 40,
+    "noise_settings": {
+      "Is_noise": false,
+      "noise_rate_x": 0,
+      "noise_rate_y": 0.15,
+      "noise_rate_z": 0
+    },
+    "training_settings": {
+      "epochs": 800,
+      "batch_size": 2048,
+      "learning_rate": 0.1,
+      "initial_method": "normal",
+      "repeat_num": 40
+    },
+    "circuit_settings": {
+      "qubit_num": 4,
+      "encoder_layer_num": 10,
+      "ansatz_layer_num": 1,
+      "ansatz_layer_num_in_block": 4,
+      "filename_this": "QNN_initial_noise_equal_noiseless_parfor7.py"
+    },
+    "sample_count": 1000,
+    "normalization": "abs(fft(prediction)/1000), both endpoint samples retained; average magnitudes over all saved runs"
+  }
+}

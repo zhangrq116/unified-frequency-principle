@@ -1,0 +1,124 @@
+{
+  "conditions": [
+    {
+      "key": "noiseless",
+      "historical_id": 1,
+      "file": "inputs/noiseless.npz",
+      "sha256": "6b04eadb9de19e117599a18b378bcef764ca08128e79e157b5472198242ac03d",
+      "source_path": "plot_inputs.npz",
+      "source_sha256": "e74605b117063f17b71ccc03a177b168b3c132e096973060a12a37565e467c7d",
+      "maintext_input_sha256": "b3102885dd8d0f79dafff1f29957c9576f3476ccc8bef0faec6a05aaf1a49e2b"
+    },
+    {
+      "key": "pauli_y_003",
+      "historical_id": 6,
+      "file": "inputs/pauli_y_003.npz",
+      "sha256": "d38f54dfaa287d757358fa5d6b7dafe657af34cf7462b963ae938d45abed6965",
+      "source_path": "plot_inputs.npz",
+      "source_sha256": "5163eb49c5e541f9c90abd380db9d59fca39f0d6feaa629c2c493befaadc2bfe",
+      "maintext_input_sha256": "1e162da51c50deb6bc1d88f2eae41aa16569d84999c2623c094f4e888c416d54"
+    },
+    {
+      "key": "pauli_y_006",
+      "historical_id": 7,
+      "file": "inputs/pauli_y_006.npz",
+      "sha256": "4eaf7bdaf3f4a3137ffb2713a2f47d189c31edc188d5ce027322bad798819a88",
+      "source_path": "plot_inputs.npz",
+      "source_sha256": "9e3511ac631088690061d47a35cd847420b2131badca4651e5c86fc9b1996925",
+      "maintext_input_sha256": "98a23d974d71d7b2bece5c68bc83b6e2c79e958298f417128bff9bc993876004"
+    },
+    {
+      "key": "symmetric_0025",
+      "historical_id": 8,
+      "file": "inputs/symmetric_0025.npz",
+      "sha256": "a4a872354bbba577b60447173638075ba76aacff4e8932408902d02b0cc7db5e",
+      "source_path": "plot_inputs.npz",
+      "source_sha256": "1122264a2ac249e851b46fbf89f61a127fef6e7551f7fee2c33ef8d902814267",
+      "maintext_input_sha256": "79b0bc53e34d6542c1ac801566d3c4fcdc51e82c12297578a63d824324324bf1"
+    },
+    {
+      "key": "symmetric_0005",
+      "historical_id": 9,
+      "file": "inputs/symmetric_0005.npz",
+      "sha256": "bad049a63544e25812944df6a1d55cb0e277bc2b1ab95bab16cc04f409b7bed8",
+      "source_path": "plot_inputs.npz",
+      "source_sha256": "0fce0df3eef246c86e389d2b130ebcb2b31902fbb931734ebe75410c6cb83d92",
+      "maintext_input_sha256": "cec6efd407c0276ddc9f4712fcdb2e6d3b5762f0bd95803d458560a774722bd8"
+    },
+    {
+      "key": "allblock_encoder_0005",
+      "historical_id": 10,
+      "file": "inputs/allblock_encoder_0005.npz",
+      "sha256": "675fd3568edca440c180be1edbae2b51cc3a6facad37231e7ebf2cd9f34017d3",
+      "source_path": "plot_inputs.npz",
+      "source_sha256": "fdf43e500c4f95ff2c975511f68bfe63905e1ce806d0609f84002092d8e1ffc4",
+      "maintext_input_sha256": "e5c341c9cdc693503c7b9de8b984e80aa0e005899206a9383c473f2a7ad46dd2"
+    },
+    {
+      "key": "thermal_weak",
+      "historical_id": 11,
+      "file": "inputs/thermal_weak.npz",
+      "sha256": "7db00752c061563e79c0e46ea1823657ac0b14115eebf50b84838dd68c130b75",
+      "source_path": "plot_inputs.npz",
+      "source_sha256": "57ce9fb1167671b00a7abd8bdcb4e9c1670b5aa8a23cd054cd9c0612a5f94008",
+      "maintext_input_sha256": "b0e9431adf18ccfd6e9e7326469c804fb64461a9ccf58d40a599d10680a82d5d"
+    },
+    {
+      "key": "thermal_matched",
+      "historical_id": 12,
+      "file": "inputs/thermal_matched.npz",
+      "sha256": "71c7002f65e43818edb396c32fec9dbd654145ec92c9c5e672f3999c772d0932",
+      "source_path": "thermal_double_only_matched_tau0p0100503359_sgd_lr0p5_epochs1600_repeats20_seeds42_61_frequency_loss.npz",
+      "source_sha256": "7e1c2f5876876153c84060d42dee87fdf272f2db8963b108cd7eaf1a5a2a3d4b"
+    }
+  ],
+  "source_figure_package": "gd20_fig3_fig4_thermal8_20261103_181044",
+  "reference_plot_script": "notebook_source.py",
+  "reference_plot_script_sha256": "e3e7031b70f1564eec11deee04802771e9bdf26ca84cf713e2909024a92a2a30",
+  "learning_rate": 0.5,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "cutoffs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    30,
+    39
+  ],
+  "endpoints": [
+    25,
+    50,
+    100,
+    200,
+    500
+  ],
+  "window": 10,
+  "denominator_relative_threshold": 1e-08,
+  "scope": "current main-text eight settings, including one noiseless baseline",
+  "plot_layout": [
+    2,
+    4
+  ]
+}

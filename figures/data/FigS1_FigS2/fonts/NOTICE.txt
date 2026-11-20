@@ -1,0 +1,4 @@
+Nimbus Roman Regular: (URW)++, Copyright 2014 by (URW)++ Design & Development.
+Font program recovered from the author-supplied Figure S1 PDF to preserve its typography.
+No new ownership or license over this third-party font is asserted by this package.
+Other figures use the DejaVu fonts distributed with Matplotlib.
